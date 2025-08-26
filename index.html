@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <h1>Etch-A-Sketch</h1>
+    <p>A Simple Design Application To Create Drawings with Tiny Boxes!</p>
+
+    <div class="inputContainer">
+      <div>
+        <p>Height:</p>
+        <input type="text" id="heightValue" placeholder="Preferred Height" />
+
+        <p>Width:</p>
+        <input type="text" id="widthValue" placeholder="Preferred Width" />
+      </div>
+
+      <div>
+        <p>Rows:</p>
+        <input type="text" id="rowsValue" placeholder="Amount Of Rows" />
+
+        <p>Columns:</p>
+        <input type="text" id="columnValue" placeholder="Number Of Columns" />
+      </div>
+
+      <button class="enterBtn">Submit</button>
+    </div>
+
+    <div class="mainContainer">
+      <div class="container"></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
