@@ -15,6 +15,7 @@ let randomColor = () => {
 enterBtn.addEventListener("click", () => {
   containerBox.style.height = Number(heightInput.value) + "px";
   containerBox.style.width = Number(widthInput.value) + "px";
+  containerBox.style.margin = "30px";
   containerBox.innerHTML = "";
   for (let i = 0; i < Number(rowsValue.value); i++) {
     for (let z = 0; z < Number(colsValue.value); z++) {
