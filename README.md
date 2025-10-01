@@ -9,7 +9,7 @@ A dynamic drawing grid inspired by the classic Etch-A-Sketch toy, built using HT
 - Responsive interaction using mouseenter events
 - Real-time DOM updates to create an interactive and engaging interface
 
-##Tech Skills Demonstrated
+## Tech Skills Demonstrated
 
 - Dynamic creation of DOM elements
 - Event listeners for user interaction
